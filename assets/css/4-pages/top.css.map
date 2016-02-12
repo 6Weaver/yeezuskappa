@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "top.css",
+  "sources": [
+    "top.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,IAAI,CAAC;EACD,MAAM,EAAC,MAAO;EACd,gBAAgB,EAAC,OAAQ;EACzB,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,MAAO;EACvB,eAAe,EAAE,MAAO;EACxB,WAAW,EAAC,MAAO,GANjB;;EAOF,IAAI,CAAC,KAAK,CAAJ;IACF,OAAO,EAAC,IAAK;IACb,cAAc,EAAE,GAAI;IACpB,eAAe,EAAE,aAAc;IAC/B,WAAW,EAAE,MAAO,GAJjB",
+  "names": []
+}

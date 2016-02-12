@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "player.css",
+  "sources": [
+    "player.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,OAAO,CAAC;EACJ,MAAM,EAAC,KAAM;EACb,gBAAgB,EAAC,OAAQ,GAFpB",
+  "names": []
+}

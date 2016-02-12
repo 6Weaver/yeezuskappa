@@ -1,0 +1,16 @@
+/* line 1, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/top.sass */
+.top {
+  height: 1000px;
+  background-color: #818181;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  /* line 8, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/top.sass */
+  .top .rand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+
+/*# sourceMappingURL=top.css.map */

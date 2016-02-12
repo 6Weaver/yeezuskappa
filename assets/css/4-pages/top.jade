@@ -1,0 +1,53 @@
+mixin song-overlay (name,song,ilink,glink,number)
+    .overlay
+        h3(nume="#{name}",sursa="#{song}", nr="#{number}").song-name #{name}
+        .play
+        .pause
+        .buy
+            a(href="#{ilink}").itunes
+            .buy-button
+            a(href="#{glink}").google
+            
+
+section.top 
+    .top-wraper
+        .rand
+            figure
+                img(src="assets/img/top-images/first.jpg")
+                +song-overlay("Major Lazer & DJ Snake feat. MO - Lean On","1.mp3","#","#","1")
+            figure 
+                img(src="assets/img/top-images/second.png")
+                +song-overlay("Hozier - Take Me To Church","2.mp3","#","#","2")
+            figure 
+                img(src="assets/img/top-images/third.jpg")
+                +song-overlay("Kadebostany - Castle In the Snow","3.mp3","#","#","3")
+            figure
+                img(src="assets/img/top-images/fourth.jpg")
+                +song-overlay("Imany - The Good, The Bad & The Crazy","4.mp3","#","#","4")
+            figure
+                img(src="assets/img/top-images/fifth.jpg")
+                +song-overlay("Lorde feat. Disclosure-Magnets","5.mp3","#","#","5")
+            figure
+                img(src="assets/img/top-images/sixth.jpg")
+                +song-overlay("Taylor Swift-Style ","6.mp3","#","#","6")
+            
+            figure
+                img(src="assets/img/top-images/eight.jpg")
+                +song-overlay("Daft Punk-Get Lucky","7.mp3","#","#","7")
+            figure
+                img(src="assets/img/top-images/ninth.jpg")
+                +song-overlay("Coldplay-Adventure Of A Lifetime","8.mp3","#","#","8")
+            figure
+                img(src="assets/img/top-images/ten.jpg")
+                +song-overlay("Kygo-Stole the show","9.mp3","#","#","9")
+            
+            figure
+                img(src="assets/img/top-images/twelve.jpg")
+                +song-overlay("Pink Floyd-Confortably Numb","10.mp3","#","#","10")
+            
+        
+       
+            
+            
+        
+        

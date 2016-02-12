@@ -1,0 +1,76 @@
+/* line 1, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+.subscribe {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/subscribe-bg.png");
+  background-size: cover;
+  margin-bottom: 135px; }
+  /* line 13, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+  .subscribe .anunt {
+    color: white;
+    font-family: raleway;
+    font-size: 28px;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 50px; }
+  /* line 21, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+  .subscribe .subscribe-form {
+    max-width: 100%;
+    margin-bottom: 50px; }
+    /* line 26, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+    .subscribe .subscribe-form .mc-field-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      /* line 32, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+      .subscribe .subscribe-form .mc-field-group #mce-EMAIL, .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe {
+        background: transparent;
+        border: 3px solid white;
+        border-radius: 0;
+        margin: 0;
+        padding: 50px 30px;
+        font-size: 28px;
+        font-family: raleway; }
+        /* line 41, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+        .subscribe .subscribe-form .mc-field-group #mce-EMAIL:focus, .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe:focus {
+          background: transparent; }
+        /* line 43, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+        .subscribe .subscribe-form .mc-field-group #mce-EMAIL:active, .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe:active {
+          background: transparent; }
+      /* line 46, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+      .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe {
+        background: white;
+        font-size: 28px;
+        font-family: raleway;
+        padding: 50px 30px;
+        line-height: 10%; }
+        /* line 54, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+        .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe:active {
+          background: white; }
+        /* line 56, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+        .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe:focus {
+          background: white; }
+  @media (max-width: 640px) {
+    /* line 60, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+    .subscribe .anunt {
+      font-size: 18px; }
+    /* line 63, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+    .subscribe .subscribe-form .mc-field-group {
+      flex-direction: column; }
+      /* line 65, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+      .subscribe .subscribe-form .mc-field-group #mce-EMAIL, .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe {
+        font-size: 16px;
+        padding: 20px 20px;
+        text-align: center; }
+      /* line 69, C:/Users/tutyr/Desktop/iri/assets/css/4-pages/subscribe.sass */
+      .subscribe .subscribe-form .mc-field-group #mc-embedded-subscribe {
+        padding: 20px 58px; } }
+
+/*# sourceMappingURL=subscribe.css.map */
